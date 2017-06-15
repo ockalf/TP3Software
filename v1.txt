@@ -1,3 +1,7 @@
 version 1
 version 2
+<<<<<<< HEAD
 varsion 3 rama
+=======
+version 3 master
+>>>>>>> 4b662ad7d27db2742718ca28d7269f81e783d071
