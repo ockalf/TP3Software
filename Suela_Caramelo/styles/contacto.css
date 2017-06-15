@@ -1,0 +1,119 @@
+section.contacto article{
+    width: 45%;
+    padding: 20px;
+    float: left;
+}
+
+section.contacto article.izq{
+    border-right: 1px solid lightgray;
+}
+
+section.contacto article.izq img{
+    display: block;
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+section.contacto article.izq div{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+section.contacto article.izq h4{
+    color: orange;
+    text-transform: capitalize;
+    font-weight: 400;
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+section.contacto article.izq h5{
+    float: left;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 15px
+}
+
+section.contacto article.izq div h4:nth-child(3), 
+section.contacto article.izq div h4:nth-child(4), 
+section.contacto article.izq div h5:nth-child(5), 
+section.contacto article.izq div h5:nth-child(6) {
+    width: 40%;
+    display: block;
+    position: relative;
+    margin-right: 10px
+}
+
+section.contacto article.der{
+    float: left;
+}
+
+
+section.contacto article.der img{
+    width: 30px;
+    filter:grayscale(.7)
+}
+
+section.contacto article.der img:hover{
+    filter: grayscale(0)
+}
+
+section.contacto article.der h4{
+    width: 110px;
+    display: block;
+    text-transform: capitalize;
+    color: orange;
+    font-size: 19px;
+    font-weight: 400;
+    float: left;
+}
+
+section.contacto article.der>div{
+    float: left;
+    width: 60%;
+}
+
+section.contacto article.der>div div{
+    height: 15px;
+    width: 200px;
+    float: left;
+    border-bottom: 1px solid lightgray;
+    margin-right: 5px;
+}
+
+section.contacto article.der form input{
+    width: 50%;
+    margin-bottom: 10px;
+    border: 0px;
+    height: 30px;
+    padding: 0 10px;
+    border-bottom: 1px solid orange;
+    color: gray
+}
+
+section.contacto article.der form textarea{
+    width: 70%;
+    padding: 10px;
+    height: 150px;
+    color: gray;
+    resize: none;
+}
+
+section.contacto article.der form a{
+    display:block;
+    text-transform: capitalize;
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+    height: 25px;
+    width: 150px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: orange;
+    color: white;
+}

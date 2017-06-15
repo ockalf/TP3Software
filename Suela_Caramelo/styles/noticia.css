@@ -1,0 +1,184 @@
+section.noticia{
+    width: 70%;
+    float: left;
+}
+
+
+section.noticia div.volanta{
+    height: auto;
+    float: left;
+    display: block;
+    width: 80%;
+}
+
+section.noticia div.volanta img{
+    height: 25px;
+    filter: grayscale(1) brightness(1.3);
+    margin-left: 7px;
+    float: left;
+    
+    transition: filter 300ms linear;
+    -o-transition: filter 300ms linear;
+    -webkit-transition: filter 300ms linear;
+    -moz-transition: filter 300ms linear;
+    
+}
+
+section.noticia div.volanta img:hover{
+    filter: grayscale(0);
+}
+
+div.separador {
+    height: 3px;
+    display: block;
+    float: left;
+    width: 80%;
+    background-color: lightgrey;
+    margin-top: -10px;
+}
+
+div.separador div{
+    width: 25px;
+    float: left;
+    height: 3px;
+    margin-left: 7px;
+    
+}
+
+section.noticia p.fecha {
+    float: right;
+    display: block;
+    width: 20%;
+    margin: 0 0 0 1%;
+    font-size: 14px;
+}
+
+section.noticia h1{
+    float: left;
+    width: 100%;
+}
+
+section.noticia h2{
+    float: left;
+}
+
+section.noticia h1{
+    font-weight: 400;
+    color: orange;
+    width: 90%;
+    margin-bottom: 5px;
+    font-size: 27px;
+}
+
+section.noticia h2{
+    font-size: 18;
+    margin-bottom: 10px;
+}
+
+section.noticia div.slider{
+    float: left;
+    width: 90%;
+    height: 400px;
+    overflow: hidden;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+section.noticia div.slider div.controls{
+    width: 100%;
+    height: 20px;
+    background-color: orange;
+    display: block;
+    float: left;
+    margin-top: -20px;
+    position:absolute;
+    opacity: .7;
+    z-index: 1;
+}
+
+section.noticia div.slider div.controls:hover{
+    opacity: .9;
+}
+
+section.noticia div.slider div.galeria{
+    width: 400%;
+    height: 100%;
+}
+
+section.noticia div.slider div.galeria div{
+    height: 100%;
+    width: 25%;
+    position: relative;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+section.noticia div.slider div.controls li img{
+    height: 75%;
+    width: 15px ;
+    opacity: .7;
+    position: relative;
+    margin: auto;
+    
+    transition: filter 300ms linear;
+    -o-transition: filter 300ms linear;
+    -webkit-transition: filter 300ms linear;
+    -moz-transition: filter 300ms linear
+}
+
+section.noticia div.slider div.controls li img:hover{
+    opacity: 1
+}
+
+section.noticia div.slider div.controls li div{
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: none;
+    position: relative;
+    border-radius: 100%;
+    margin: 4px 5px;
+    opacity: .7;
+    border: 1px solid white;
+}
+section.noticia div.slider div.controls li div:hover{
+    background-color: white
+}
+
+section.noticia div.slider div.controls li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+section.noticia div.slider div.controls ul{
+    height: 20px;
+    text-align: center;
+    width: 100%;
+    
+}
+section.noticia p.cuerpo{
+    float: left;
+    width: 90%;
+    line-height: 27px;
+    margin-top: 20px;
+    margin-left: 1%;
+}
+
+section.noticia h4{
+    float: left;
+    width: 89%;
+    padding: .5%;
+    text-align: right;
+    text-transform: capitalize;
+    font-style: italic;
+    color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    border-bottom: 3px solid orange;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

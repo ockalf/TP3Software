@@ -1,0 +1,81 @@
+<section class="noticias">
+    
+    <h2>nueva noticia</h2>
+    
+    <form method="post" id="formnoticia">
+        
+        <label for="titulo">titulo:</label>
+        <input type="text" id="titulo" name="titulo">
+        
+        <label for="categoria">Categoria:</label>
+        <select name="categoria" id="categoria">
+            
+            <optgroup label="Masculino">
+                
+                <option value="1">Primera A</option>
+                <option value="2">Primera B</option>
+                <option value="3">Primera C</option>
+                <option value="4">Primera D</option>
+                
+            </optgroup>
+            
+            <optgroup label="Femenino">
+                
+                <option value="5">Primera A</option>
+                <option value="6">Primera B</option>
+                
+            </optgroup>
+            
+               <optgroup label="Selecciones">
+                
+                <option value="7">Nacionales</option>
+                <option value="8">Mendocinas</option>
+                
+            </optgroup>
+                                  
+            <optgroup label="Otras">
+                
+                <option value="9">Copa Mendoza</option>
+                <option value="10">Senior</option>
+                
+            </optgroup>
+                                 
+        </select>
+        
+        <label for="subtitulo">subtitulo:</label>
+        <input type="text" id="subtitulo">
+        
+        <label for="resumen">Resumen:</label>
+        <textarea id="resumen" placeholder="Escriba un resumen de la noticia, sino se tomará una parte del cuerpo de la misma"></textarea>
+
+        <input type="file" id="imagen">
+        <a href="#"> vincular video</a>
+        
+        <div class="miniaturas">
+            
+            <img src="../imgs/imagen.jpg" alt="">
+            <img src="../imgs/imagen.jpg" alt="">
+            <img src="../imgs/imagen.jpg" alt="">
+            <img src="../imgs/imagen.jpg" alt="">
+            <img src="../imgs/imagen.jpg" alt="">
+            <img src="../imgs/imagen.jpg" alt="">
+            <img src="../imgs/imagen.jpg" alt="">
+            <img src="../imgs/imagen.jpg" alt="">
+            <img src="../imgs/imagen.jpg" alt="">
+            <img src="../imgs/imagen.jpg" alt="">
+            
+        </div>
+        
+        <label for="epigrafe">epígrafe(opcional):</label>
+        <input type="text" id="epigrafe">
+        
+        <label for="fecha">fecha:</label>
+        <input type="date" id="fecha">
+        
+        <label for="cuerpo">cuerpo:</label>
+        <textarea name="cuerpo" id="cuerpo" cols="30" rows="10"></textarea>
+        
+        <a href="#" class="publicar" onclick="validarNot()">publicar</a>
+    </form>
+    
+</section>

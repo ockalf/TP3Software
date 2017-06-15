@@ -1,0 +1,77 @@
+section.publicidad h2{
+    text-transform: capitalize;
+}
+
+section.publicidad form label{
+    width: 10%;
+    display: block;
+    text-transform: capitalize;
+    float: left;
+    text-align: right;
+    margin-right: 1%;
+    margin-top: 10px;
+}
+
+section.publicidad form input[type="text"]{
+    float: left;
+    width: 40%;
+    margin-right: 49%;
+    margin-top: 10px;
+    padding-left: 1%;
+    border: none;
+    height: 25px;
+    border-bottom: 1px solid grey;
+}
+
+
+section.publicidad form div.s1{
+    display: block;
+    width: 468px;
+    height: 60px;
+    background-color: lightgray;
+    float: left;
+}
+
+section.publicidad form div.s2{
+    display: block;
+    width: 984px;
+    height: 170px;
+    background-color: lightgray;
+    float: left;
+}
+
+section.publicidad form div.s3{
+    display: block;
+    width: 250px;
+    height:250px;
+    background-color: lightgray;
+    float: left;
+}
+
+section.publicidad form input[type="file"]{
+    margin: 10px 0;
+   
+    height: 20px;
+    float: left;
+    margin-right: 60%;
+   
+}
+
+section.publicidad form {
+    float: left;
+}
+
+section.publicidad form a{
+    float: left;
+    margin-right: 100%;
+    padding: 10px 50px;
+    background-color: #acacac;
+    margin-top: 20px;
+    margin-left: 50%;
+    color: white;
+}
+
+section.publicidad form a:hover{
+    background-color: rgb(212, 153, 45)
+}
+

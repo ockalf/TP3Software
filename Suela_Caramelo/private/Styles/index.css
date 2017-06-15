@@ -1,0 +1,101 @@
+*{
+    font-family: 'open sans', sans-serif;
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+
+header{
+    display: block;
+    float: left;
+    width: 100%;
+    background-color: orange;
+    height: 70px;
+}
+
+header h1{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 400;
+    width: 500px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+header a{
+    float: right;
+    margin-right: 40px;
+    margin-top: 40px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: white;
+    height: 25px;
+    padding-top: 5px;
+}
+
+header a:hover{
+    background-color: #ffba3b
+}
+
+aside{
+    width: 20%;
+    text-align: right;
+    float: left;
+    height: 40%;
+}
+
+aside a{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #cccccc;
+    margin-right: 15px;
+    margin-top: 20px;
+    
+    transition: all 200ms cubic-bezier(.42, 0, .58, 1);         
+    -o-transition: all 200ms cubic-bezier(.42, 0, .58, 1);     
+    -webkit-transition: all 200ms cubic-bezier(.42, 0, .58, 1);     
+    -moz-transition: all 200ms cubic-bezier(.42, 0, .58, 1);
+}
+
+aside a:hover{
+    color: black;
+    margin-right: 10px;
+}
+
+div.contenido{
+    overflow-y: auto;
+    min-width: 70%;
+    max-height: 80%;
+    min-height: 80%;
+    max-width: 70%;
+    padding-left: 2%;
+    padding-top: 1%;
+    display: block;
+    float: left;
+    border-left: 2px solid #efefef;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    float: left;
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    background-color: orange;
+}
+
+footer h4{
+    float: right;
+    display: block;
+    margin-right: 20px;
+    color:white;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
